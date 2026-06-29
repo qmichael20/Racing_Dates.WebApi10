@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.Props" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Application.IntegrationTests/Application.IntegrationTests.csproj" />
+    <Project Path="Tests/Application.UnitTests/Application.UnitTests.csproj" />
+  </Folder>
+  <Project Path="Application/Application.csproj" />
+  <Project Path="Domain/Domain.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="Racing_Dates.WebApi10.Api/Racing_Dates.WebApi10.Api.csproj" />
+  <Project Path="SharedKernel/SharedKernel.csproj" />
+</Solution>
