@@ -28,11 +28,8 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwaggerWithUi();
-    app.ApplyMigrations();
-}
+app.UseSwaggerWithUi();
+app.ApplyMigrations();
 
 app.UseHttpsRedirection();
 
