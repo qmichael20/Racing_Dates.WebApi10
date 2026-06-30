@@ -3,8 +3,8 @@
     <File Path="Directory.Build.Props" />
   </Folder>
   <Folder Name="/Tests/">
-    <Project Path="Tests/Application.IntegrationTests/Application.IntegrationTests.csproj" />
-    <Project Path="Tests/Application.UnitTests/Application.UnitTests.csproj" />
+    <Project Path="Application.UnitTests/Application.UnitTests.csproj" Id="0eebcd28-bf6f-44d6-9b76-ee446c805bb2" />
+    <Project Path="Domain.UnitTests/Domain.UnitTests.csproj" Id="d371bda2-e1e5-4d81-95fb-edcef05c43fe" />
   </Folder>
   <Project Path="Application/Application.csproj" />
   <Project Path="Domain/Domain.csproj" />

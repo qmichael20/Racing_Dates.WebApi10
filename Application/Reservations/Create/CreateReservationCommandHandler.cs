@@ -66,7 +66,7 @@ namespace Application.Reservations.Create
 
             await reservationRepository.AddAsync(reservation, cancellationToken);
 
-            await unitOfWork.SaveAsync();
+            await unitOfWork.SaveAsync(cancellationToken);
 
             return reservation.Id;
         }

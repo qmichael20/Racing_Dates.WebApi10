@@ -68,7 +68,7 @@ namespace Application.Events.Create
 
             await eventRepository.AddAsync(newEvent, cancellationToken);
 
-            await unitOfWork.SaveAsync();
+            await unitOfWork.SaveAsync(cancellationToken);
 
             return newEvent.Id;
         }

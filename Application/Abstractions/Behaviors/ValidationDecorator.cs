@@ -1,11 +1,7 @@
 ﻿using Application.Abstractions.Messaging;
 using FluentValidation;
 using FluentValidation.Results;
-using Microsoft.EntityFrameworkCore;
 using SharedKernel;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Application.Abstractions.Behaviors
 {
